@@ -200,14 +200,14 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Speed Hack",
    Callback = function()
    loadstring(game:HttpGet('https://whimper.xyz/kitty'))()
    end,
 })
 
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Auto Parry",
    Callback = function()
    loadstring(game:HttpGet("https://pastefy.app/50B4Z9UK/raw"))()
