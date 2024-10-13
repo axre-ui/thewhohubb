@@ -232,6 +232,13 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Halloween Script",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/Sonic8"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Auto Farm",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/credit/main/sonicspeedsimulator.lua"))()
