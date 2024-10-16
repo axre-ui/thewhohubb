@@ -401,6 +401,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+    Name = "Voidware (Closet Cheats) | 🌊 Wave",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
+    end,
+ })
+
 local Tab = Window:CreateTab("⚡ Sonic Speed Simulator", nil) -- Title, Image
 local Section = Tab:CreateSection("Sonic Speed Simulator")
 
