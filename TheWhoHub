@@ -408,6 +408,13 @@ local Button = Tab:CreateButton({
     end,
  })
 
+ local Button = Tab:CreateButton({
+    Name = "Vape V4",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    end,
+ })
+
  local Tab = Window:CreateTab("🏎 Delarship Simulator", nil) -- Title, Image
  local Section = Tab:CreateSection("Delarship Simulator")
 
