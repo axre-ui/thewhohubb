@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("🔪 Combat Warriors", nil) -- Title, Image
+local MainTab = Window:CreateTab("🔪 Combat Warriors", 15668939751) -- Title, Image
 local MainSection = MainTab:CreateSection("Combat Warriors")
 
 Rayfield:Notify({
