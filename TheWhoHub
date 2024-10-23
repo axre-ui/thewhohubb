@@ -412,11 +412,12 @@ local Button = Tab:CreateButton({
  local Section = Tab:CreateSection("Delarship Simulator")
 
  local Button = Tab:CreateButton({
-    Name = "Auto Farm",
+    Name = "Boos Farm",
     Callback = function()
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Qrto1/working/main/pc"))()"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/dealership%20tycoon"))()"))()
     end,
  })
+ 
 
 local Tab = Window:CreateTab("⚡ Sonic Speed Simulator", nil) -- Title, Image
 local Section = Tab:CreateSection("Sonic Speed Simulator")
