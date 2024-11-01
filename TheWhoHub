@@ -456,6 +456,23 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Tab = Window:CreateTab("🧬 Project Lazarus", nil) -- Title, Image
+local Section = Tab:CreateSection("Project Lazarus")
+
+local Button = Tab:CreateButton({
+    Name = "Dark Hub (Instant Kill / Kill all)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SmartModBoy/script2/main/projectzombie", true))()
+    end,
+ })
+
+ local Button = Tab:CreateButton({
+    Name = "Headshots",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()
+    end,
+ })
+
 local Tab = Window:CreateTab("💨 Untitled Tag Game", nil) -- Title, Image
 local Section = Tab:CreateSection("Untitled Tag Game")
 
